@@ -1,0 +1,164 @@
+body {
+    color: black;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    height: 100%;
+}
+
+.intro .container {
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.intro p {
+    line-height: 30px;
+}
+
+.intro input {
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.intro .bottom {
+    background-color: black;
+    color: wheat;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 30px;
+    position: relative;
+    left: 250px;
+    top: -37px;
+}
+
+.works {
+    background-color: #ffd394;
+}
+
+.works .top {
+    position: relative;
+    top: -120px;
+    height: 350px;
+    background-image: url("images/mars.png");
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.works h3 {
+    font-size: 24px;
+}
+
+.works p {
+    width: 550px;
+    line-height: 26px;
+}
+
+.works a {
+    color: white;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.works .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works .bottom .order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1928;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.works .row {
+    display: flex;
+    gap: 30px;
+}
+
+.works h2 {
+    font-size: 42px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.footer ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .subscribe {
+    background-color: #1e1928;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.footer .subscribe a {
+    color: white;
+}
+
+.footer .social {
+    background-color: #1e1928;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social a {
+    color: white;
+}
